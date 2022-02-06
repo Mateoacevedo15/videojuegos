@@ -1,11 +1,14 @@
 
   header {
+       text-align: center;
             background: rgb(180, 217, 247);
-            color:rgb(135, 87, 197)
+            color:rgb(3, 0, 7)
+            
  }
 
 body {
             background: rgb(208, 243, 233);
+            
  }
 
 h2 {
@@ -23,4 +26,36 @@ ol {
 
 h4 {
     font-family:sans-serif ;
+}
+
+
+
+menu {
+    background: lightblue;
+    padding: 15px;
+}
+
+.menu li {
+    list-style: none;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    font-size: x-large;
+    display: inline-block;
+    text-align: center;
+    
+
+}
+
+.right {
+    text-align: right;
+    background-color: rgb(121, 241, 231);
+}
+
+.left {
+    text-align: left;
+    background-color: rgb(193, 150, 248);
+}
+
+h2 {
+    text-align: right;
 }
